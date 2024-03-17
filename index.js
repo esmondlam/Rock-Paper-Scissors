@@ -2,7 +2,7 @@ function playAGame() {
   let playerScore = 0;
   let computerScore = 0;
   for (let i = 0; i < 5; i++) {
-    const playerChoice = prompt("What's your choice this round?");
+    // const playerChoice = prompt("What's your choice this round?");
     const computerChoice = getComputerChoice();
     let result = playARound(playerChoice, computerChoice);
     console.log(result);
